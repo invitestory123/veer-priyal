@@ -14,6 +14,13 @@
       wish.style.fontFamily = '"cormorant", Georgia, serif';
       wish.style.whiteSpace = 'normal';
     }
+    const closingP = main.querySelector('[data-section="closing"] p');
+    if (closingP) {
+      closingP.style.fontFamily = '"cormorant", Georgia, serif';
+      closingP.style.fontStyle = 'italic';
+      closingP.classList.remove('font-pinyon');
+      closingP.classList.add('font-cormorant');
+    }
   };
   new MutationObserver(tagSections).observe(document.querySelector('#app'), {
     childList: true,

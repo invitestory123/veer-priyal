@@ -23,14 +23,14 @@ window.LAGO_CONFIG = {
   },
   "invitation": {
     "heading": "",
-    "body": "With the grace of Lord Shree Shankeshwar Parshwanathaya Namah\n\nThe Blessings of our Grandparents\nLate Smt. Taraben & Late Shri Nathalal Vadilal Shah\n\nRupa Pradip Shah\n\nSolicit your blessings & request your presence to share their joy at the wedding celebration of their son",
+    "body": "",
     "couple": {
       "names": [
         "Veer",
         "Priyal"
       ],
       "joiner": "weds",
-      "note": "Daughter of Deepikaben & Jitendrabhai Katariya"
+      "note": ""
     }
   },
   "celebration": {
@@ -162,12 +162,12 @@ window.INVITE_EXTRA = {
       "details": [
         "Dress Code: Indian Ethnic",
         "Valet Parking Available"
-      ],
-      "compliments": "Meghna, Parth, Parshvi, Shrey & Nirvana"
+      ]
     },
     {
       "icon": "rings-v2.webp",
       "title": "Veer weds Priyal",
+      "font": "font-cormorant",
       "date": "Saturday, 12th December 2026",
       "times": [
         [

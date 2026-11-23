@@ -23,14 +23,14 @@ window.LAGO_CONFIG = {
   },
   "invitation": {
     "heading": "",
-    "body": "With the grace of Lord Shree Shankeshwar Parshwanathaya Namah\n\nThe Blessings of our Grandparents\nLate Smt. Taraben & Late Shri Nathalal Vadilal Shah\n\nRupa Pradip Shah\n\nSolicit your blessings & request your presence to share their joy at the wedding celebration of their son",
+    "body": "",
     "couple": {
       "names": [
         "Veer",
         "Priyal"
       ],
       "joiner": "weds",
-      "note": "Daughter of Deepikaben & Jitendrabhai Katariya"
+      "note": ""
     }
   },
   "celebration": {
