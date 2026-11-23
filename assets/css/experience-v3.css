@@ -1,0 +1,42 @@
+/* Zareen: quiet champagne light, jewelry-like feedback and floral motion. */
+.t054 { background-color:#f7f1e8; }
+#main > section { isolation:isolate; }
+#main > section > * { position:relative; z-index:1; }
+#main > section[data-section="countdown"],
+#main > section[data-section="dua"] {
+  background-image:radial-gradient(ellipse at 75% 25%,rgba(211,184,128,.09),transparent 65%);
+}
+.t054 button,.t054 a { -webkit-tap-highlight-color:transparent; }
+.t054 button:not(.music-chip),.t054 a {
+  transition:transform .25s ease,box-shadow .35s ease,filter .35s ease;
+}
+.t054 button:focus-visible,.t054 a:focus-visible {
+  outline:2px solid #83571f;outline-offset:5px;
+}
+.t054 button:active,.t054 a:active,.t054 .v3-pressed {
+  transform:translateY(1px) scale(.98);
+}
+.t054 button:not(.music-chip):hover,.t054 a:hover {
+  filter:brightness(1.045);
+  box-shadow:0 7px 20px rgba(131,87,31,.12);
+}
+[data-section="celebration"] > div > div:last-child > div {
+  border-radius:12px;transition:background .3s ease,transform .3s ease;
+}
+@media(hover:hover){
+ [data-section="celebration"] > div > div:last-child > div:hover {
+   background:rgba(255,255,255,.35);transform:translateX(3px);
+ }
+ .venue-img { transition:filter .6s ease; }
+ .venue-img:hover { filter:brightness(1.03) saturate(1.04); }
+}
+.v3-floral-visible::before { animation:zareen-vine-light 10s ease-in-out infinite alternate; }
+@keyframes zareen-vine-light {from{filter:brightness(1)}to{filter:brightness(1.12)}}
+#heroWreath > div > img { animation:zareen-pearl-light 9s ease-in-out infinite alternate; }
+@keyframes zareen-pearl-light {from{filter:brightness(.8) contrast(1.18)}to{filter:brightness(.92) contrast(1.1)}}
+.music-chip { transition:box-shadow .3s ease,background .3s ease; }
+.music-chip:hover { box-shadow:0 4px 18px rgba(131,87,31,.14); }
+@media(prefers-reduced-motion:reduce){
+ .t054 *, .t054 *::before,.t054 *::after {animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important;}
+ .t054 button:active,.t054 a:active,.t054 .v3-pressed {transform:none;}
+}
