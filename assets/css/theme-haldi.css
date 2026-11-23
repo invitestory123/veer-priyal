@@ -1,0 +1,103 @@
+/* Haldi & Ganesh Chandla Radiant Yellow Theme */
+:root {
+  --t054-page: #FFFBE6;
+  --t054-page-rgb: 255 251 230;
+  --t054-card: #FFFEF5;
+  --t054-rule: #E5A93C;
+  --t054-accent: #D48806;
+  --t054-on-accent: #FFFFFF;
+  --t054-field-bg: rgba(255, 255, 255, 0.60);
+  --t054-field-text: #5A3C08;
+  --t054-field-border: #F3D28E;
+  --t054-track: #FDF2CB;
+  --t054-mark: #E09F21;
+  --t054-chip: rgba(255, 248, 220, 0.90);
+  --t054-chip-border: rgba(229, 169, 60, 0.75);
+  --t054-frame-inner: rgba(229, 169, 60, 0.45);
+  --t054-cover-ground: #FEF4CD;
+  --t054-script: #8A5804;
+  --t054-body: #573E12;
+  --t054-label: #4E3406;
+  --t054-submit: #D48806;
+  --t054-submit-hover: #B87300;
+}
+
+body {
+  background-color: #FFFBE6 !important;
+}
+
+.t054 {
+  background-color: #FFFBE6 !important;
+}
+
+/* Warm haldi glow on cards */
+.t054-card {
+  background: radial-gradient(100% 90% at 50% 10%, #FFFFFF 0%, #FFFDF2 60%, #FFF8DC 100%) !important;
+  border-color: rgba(229, 169, 60, 0.55) !important;
+  box-shadow: 0 16px 36px -12px rgba(212, 136, 6, 0.18), inset 0 0 0 1px rgba(229, 169, 60, 0.25) !important;
+}
+
+/* Haldi celebration card */
+.fn-event {
+  background: linear-gradient(180deg, rgba(255, 254, 240, 0.96), rgba(254, 248, 224, 0.94)) !important;
+  border: 1.5px solid rgba(229, 169, 60, 0.7) !important;
+  box-shadow: inset 0 0 0 5px rgba(255, 253, 240, 0.95), inset 0 0 0 6px rgba(229, 169, 60, 0.35), 0 20px 44px -22px rgba(184, 115, 0, 0.35) !important;
+}
+
+.fn-title {
+  color: #8A5804 !important;
+}
+
+.fn-date {
+  color: #6E4403 !important;
+}
+
+.fn-times div {
+  border-bottom-color: rgba(229, 169, 60, 0.45) !important;
+}
+
+.fn-times dt {
+  color: #7D4F05 !important;
+}
+
+.fn-times dd {
+  color: #4E3406 !important;
+}
+
+.fn-venue-label {
+  color: #8A5804 !important;
+}
+
+.fn-venue-name {
+  color: #573E12 !important;
+}
+
+.fn-map {
+  background: linear-gradient(135deg, #F3AC27, #DE8B07) !important;
+  box-shadow: 0 4px 14px rgba(222, 139, 7, 0.35) !important;
+  color: #FFFFFF !important;
+}
+
+.fn-map:hover {
+  filter: brightness(1.08) !important;
+}
+
+.fn-details li {
+  border-color: rgba(229, 169, 60, 0.65) !important;
+  color: #573E12 !important;
+}
+
+/* Haldi countdown accents */
+[data-section="countdown"] {
+  background-image: radial-gradient(ellipse at 75% 25%, rgba(245, 184, 46, 0.20), transparent 65%) !important;
+}
+
+/* Warm haldi audio chip */
+.music-chip {
+  background: rgba(255, 248, 220, 0.88) !important;
+  border-color: rgba(229, 169, 60, 0.65) !important;
+  color: #6E4403 !important;
+}
+.music-chip .bar {
+  background-color: #D48806 !important;
+}
