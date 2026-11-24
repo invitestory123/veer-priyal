@@ -13,7 +13,7 @@
       ${ev.icon ? `<img class="fn-icon" src="${B}assets/images/${ev.icon}" alt="" aria-hidden="true">` : ''}
       ${ev.invocation ? `<p class="fn-invocation">${lines(ev.invocation)}</p>` : ''}
       ${ev.intro ? `<p class="fn-intro">${lines(ev.intro)}</p>` : ''}
-      <h3 class="fn-title ${ev.font || (ev.title.includes('weds') ? 'font-cormorant' : 'font-pinyon')}">${esc(ev.title)}</h3>
+      <h3 class="fn-title ${ev.font || 'font-pinyon'}">${esc(ev.title)}</h3>
       ${ev.subtitle ? `<p class="fn-subtitle">${lines(ev.subtitle)}</p>` : ''}
       <img class="fn-orn" src="${B}assets/images/ornaments.webp" alt="" aria-hidden="true">
       <p class="fn-date">${esc(ev.date)}</p>
@@ -40,7 +40,7 @@
     if (X.from) sections.push(`
       <section data-custom="from" class="t054-card fn-section mx-auto w-full max-w-5xl px-5 pb-10 pt-10 sm:px-10 sm:py-14">
         <p class="fn-venue-label">${esc(X.from.label)}</p>
-        <p class="fn-from-name font-cormorant text-t054-script">${esc(X.from.name)}</p>
+        <p class="fn-from-name font-pinyon text-t054-script">${esc(X.from.name)}</p>
         ${X.from.address ? `<p class="fn-venue-addr">${lines(X.from.address)}</p>` : ''}
       </section>`);
     if (X.closing) sections.push(`

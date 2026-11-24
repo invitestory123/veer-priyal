@@ -167,7 +167,6 @@ window.INVITE_EXTRA = {
     {
       "icon": "rings-v2.webp",
       "title": "Veer weds Priyal",
-      "font": "font-cormorant",
       "date": "Saturday, 12th December 2026",
       "times": [
         [
