@@ -87,6 +87,10 @@ body {
   color: #573E12 !important;
 }
 
+.fn-compliments {
+  border-top-color: rgba(229, 169, 60, 0.45) !important;
+}
+
 /* Haldi countdown accents */
 [data-section="countdown"] {
   background-image: radial-gradient(ellipse at 75% 25%, rgba(245, 184, 46, 0.20), transparent 65%) !important;

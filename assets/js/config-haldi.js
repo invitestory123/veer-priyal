@@ -158,7 +158,8 @@ window.INVITE_EXTRA = {
       ],
       "details": [
         "Valet Parking Available"
-      ]
+      ],
+      "compliments": "Dipika Rakesh Shah & Family"
     }
   ],
   "from": {

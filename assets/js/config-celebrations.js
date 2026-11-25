@@ -163,7 +163,8 @@ window.INVITE_EXTRA = {
       ],
       "details": [
         "Valet Parking Available"
-      ]
+      ],
+      "compliments": "Dipika Rakesh Shah & Family"
     },
     {
       "navy": true,
@@ -191,7 +192,8 @@ window.INVITE_EXTRA = {
       "details": [
         "Dress Code: Indian Ethnic",
         "Valet Parking Available"
-      ]
+      ],
+      "compliments": "Meghna, Parth, Parshvi, Shrey & Nirvana"
     },
     {
       "icon": "rings-v2.webp",

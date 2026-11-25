@@ -27,7 +27,7 @@
           ${v.map ? `<a class="fn-map t054-shimmer" href="${esc(v.map)}" target="_blank" rel="noopener noreferrer">${pin}View location</a>` : ''}
         </div>`).join('')}
       ${ev.details && ev.details.length ? `<ul class="fn-details">${ev.details.map(d => `<li>${esc(d)}</li>`).join('')}</ul>` : ''}
-      ${ev.compliments ? `<div class="fn-compliments"><p class="fn-venue-label">With best compliments from</p><p>${lines(ev.compliments)}</p></div>` : ''}
+      ${ev.compliments ? `<div class="fn-compliments"><p class="fn-venue-label">${esc(ev.complimentsLabel || 'With best compliments from')}</p><p>${lines(ev.compliments)}</p></div>` : ''}
     </article>`;
 
   const build = () => {
